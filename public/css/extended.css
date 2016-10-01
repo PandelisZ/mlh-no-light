@@ -5,11 +5,6 @@
     src: url('/fonts/code-new-roman.otf');
 }
 
-@font-face {
-    font-family: 'MLH Outage';
-    src: url('/fonts/outage.ttf');
-}
-
 /** GENERAL STYLING **/
 
 html, body {
@@ -70,7 +65,7 @@ header #submit {
   padding: 15px;
   background: #999;
   vertical-align: top;
-  font-family: 'MLH Outage', 'Arial', 'Verdana', 'Times New Roman';
+  font-family: 'Avenir', 'Arial', 'Verdana', 'Times New Roman';
 }
 
 header #submit:active {
@@ -93,8 +88,8 @@ header #sponsors {
 }
 
 header #sponsors img {
-  max-height: 60px;
-  margin: 0 30px;
+  max-height: 150px;
+  margin: -30px 30px;
   padding: 15px 0 0;
 }
 
